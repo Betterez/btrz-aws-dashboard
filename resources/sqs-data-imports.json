@@ -1,0 +1,27 @@
+{
+  "type": "metric",
+  "x": 0,
+  "y": 0,
+  "width": 20,
+  "height": 6,
+  "properties": {
+    "metrics": [
+      [
+        "AWS/SQS",
+        "NumberOfMessagesDeleted",
+        "QueueName",
+        "importData-production"
+      ],
+      [
+        "AWS/SQS",
+        "NumberOfMessagesReceived",
+        "QueueName",
+        "importData-production"
+      ]
+    ],
+    "period": 300,
+    "stat": "Sum",
+    "region": "us-east-1",
+    "title": "Data import queue"
+  }
+}

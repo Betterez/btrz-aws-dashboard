@@ -1,0 +1,31 @@
+{
+  "type": "metric",
+  "x": 0,
+  "y": 0,
+  "width": 20,
+  "height": 6,
+  "properties": {
+    "metrics": [
+      [
+        "AWS/CloudFront",
+        "Requests",
+        "Region",
+        "Global",
+        "DistributionId",
+        "ET5RQC202B3ZC"
+      ],
+      [
+        "AWS/CloudFront",
+        "4xxErrorRate",
+        "Region",
+        "Global",
+        "DistributionId",
+        "ET5RQC202B3ZC"
+      ]
+    ],
+    "period": 300,
+    "stat": "Sum",
+    "region": "us-east-1",
+    "title": "CloudFront requests and errors"
+  }
+}
